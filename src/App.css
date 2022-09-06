@@ -1,9 +1,9 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
-
+.main-container{padding:20px}
 .App-logo {
-  height: 40vmin;
+  height: 100px;
   pointer-events: none;
 }
 
@@ -14,14 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #eee;
+  /* min-height: 110px; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 10px;
 }
 
 .App-link {
